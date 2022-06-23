@@ -21,3 +21,15 @@ const carBrands = [
 
 // Solution:
 
+var newItem = [];
+carBrands.forEach((carInstance) => {
+    carBrands.forEach(car => {
+        if(carInstance.name !== car.name) {
+            // check when outer element is not equivalent to inner loops individual element; assign the unduplicated item
+            // to new array
+            newItem.push(carInstance.name);
+        }
+    });
+});
+
+console.log(newItem)

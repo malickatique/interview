@@ -21,4 +21,7 @@ class Thunderstorm
 
 Thunderstorm.letsTry();
 
+var obj = new Thunderstorm();
+obj.letsTry();
+
 // Solution:
